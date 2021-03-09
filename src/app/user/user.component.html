@@ -1,0 +1,7 @@
+<h2>Employees</h2>
+
+<div *ngFor="let employee of employees">
+    <p *ngIf="employee.age === 5" style="color: yellowgreen;"> {{employee.name}} varsta = {{employee.age}}</p>
+    <p *ngIf="employee.age === 20" style="color: red"> {{employee.name}} varsta = {{employee.age}}</p>
+    <p *ngIf="employee.age === 35" style="color: blue"> {{employee.name}} varsta = {{employee.age}}</p>
+</div>

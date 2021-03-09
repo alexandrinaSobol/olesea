@@ -1,0 +1,5 @@
+export const employees =[
+      {name:"John", "age":20},
+      {name:"Anna", "age":5},
+      {name:"Peter", "age":35}
+    ]
